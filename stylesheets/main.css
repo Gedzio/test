@@ -1,0 +1,66 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    background-image: url('../images/sky.jpg');
+    /*background-repeat: repeat-y;*/ /* for vertical repeat */
+    background-repeat: repeat-x; /* for horizontal repeat */
+    height: 20%;
+}
+
+nav {
+    text-align: center;
+    width:100%;
+    /*padding-top:2%;*/
+
+    /*background-color:#fff;*/
+}
+
+ul {
+    background-color:#fff;
+    list-style-type: none;
+    margin: 0;
+    padding: .2em;
+    height:1em;
+    position:absolute;
+    top:5%;
+    width:100%;
+}
+
+li {
+    display: inline;
+}
+
+    li a {
+        text-decoration: none;
+        padding: .2em 1em;
+        color: #000;
+        background-color: #fff;
+    }
+
+ul li a:hover {
+    color: #fff;
+    background-color: #369;
+}
+
+.content {
+    padding: .2em 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    height:60%;
+}
+.aa {
+    position:absolute;
+    top:40%;
+    left:30%;
+}
+
+footer {
+    background-image: url('../images/grass.jpg');
+    background-repeat: repeat-y; /* for vertical repeat */
+    background-repeat: repeat-x; /* for horizontal repeat */
+    height: 20%;
+}
